@@ -8,5 +8,10 @@ namespace Module3
 {
     class WordCalculator
     {
+        public static List<string> CalculateOccurences()
+        {
+            List<string> WordOccurence = new List<string>();
+            return WordOccurence;
+        }
     }
 }
