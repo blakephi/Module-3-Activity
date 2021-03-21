@@ -22,6 +22,9 @@ namespace Module3
             {
                 for (int i = 0; i < Words.Count; i++)
                 {
+                    found = false;
+                    count = 0;
+                    
                     foreach (var wordOccurrence in totalOccurrences)
                     {
                         if (wordOccurrence.Word.Equals(Words[i]))
