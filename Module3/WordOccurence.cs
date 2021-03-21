@@ -16,8 +16,10 @@ namespace Module3
             word = _word;
             count = _count;
         }
+
         public string Word { get => word; set => word = value; }
         public int Count { get => count; set => count = value; }
+
 
         public override string ToString()
         {
