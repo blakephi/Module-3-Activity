@@ -16,5 +16,10 @@ namespace Module3
         {
             InitializeComponent();
         }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
