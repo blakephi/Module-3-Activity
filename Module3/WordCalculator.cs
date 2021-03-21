@@ -14,7 +14,7 @@ namespace Module3
             bool found = false;
             int count = 0;
 
-            if (totalOccurrences.Count == 0)
+            if (Words.Count == 0)
             {
                 throw new Exception("Invalid Input");
             }
