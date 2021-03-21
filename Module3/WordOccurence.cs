@@ -23,7 +23,7 @@ namespace Module3
 
         public override string ToString()
         {
-            return "Word: " + Word + ", Occurrence: " + Count + "\n";
+            return "Word: " + Word + ", " + Count + "\n";
         }
     }
 }
