@@ -55,7 +55,7 @@ namespace Module3
             // ResultsLabel
             // 
             this.ResultsLabel.AutoSize = true;
-            this.ResultsLabel.Location = new System.Drawing.Point(327, 240);
+            this.ResultsLabel.Location = new System.Drawing.Point(227, 240);
             this.ResultsLabel.Name = "ResultsLabel";
             this.ResultsLabel.Size = new System.Drawing.Size(71, 20);
             this.ResultsLabel.TabIndex = 2;
