@@ -36,7 +36,7 @@ namespace Module3
             // 
             // InputBox
             // 
-            this.InputBox.Location = new System.Drawing.Point(231, 133);
+            this.InputBox.Location = new System.Drawing.Point(240, 138);
             this.InputBox.Multiline = true;
             this.InputBox.Name = "InputBox";
             this.InputBox.Size = new System.Drawing.Size(313, 104);
@@ -44,17 +44,18 @@ namespace Module3
             // 
             // CalculateButton
             // 
-            this.CalculateButton.Location = new System.Drawing.Point(331, 402);
+            this.CalculateButton.Location = new System.Drawing.Point(346, 402);
             this.CalculateButton.Name = "CalculateButton";
             this.CalculateButton.Size = new System.Drawing.Size(108, 36);
             this.CalculateButton.TabIndex = 1;
             this.CalculateButton.Text = "Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // ResultsLabel
             // 
             this.ResultsLabel.AutoSize = true;
-            this.ResultsLabel.Location = new System.Drawing.Point(327, 240);
+            this.ResultsLabel.Location = new System.Drawing.Point(236, 264);
             this.ResultsLabel.Name = "ResultsLabel";
             this.ResultsLabel.Size = new System.Drawing.Size(71, 20);
             this.ResultsLabel.TabIndex = 2;
