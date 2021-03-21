@@ -36,10 +36,10 @@ namespace Module3
             // 
             // InputBox
             // 
-            this.InputBox.Location = new System.Drawing.Point(231, 133);
+            this.InputBox.Location = new System.Drawing.Point(115, 12);
             this.InputBox.Multiline = true;
             this.InputBox.Name = "InputBox";
-            this.InputBox.Size = new System.Drawing.Size(313, 104);
+            this.InputBox.Size = new System.Drawing.Size(556, 186);
             this.InputBox.TabIndex = 0;
             // 
             // CalculateButton
@@ -55,7 +55,7 @@ namespace Module3
             // ResultsLabel
             // 
             this.ResultsLabel.AutoSize = true;
-            this.ResultsLabel.Location = new System.Drawing.Point(227, 240);
+            this.ResultsLabel.Location = new System.Drawing.Point(111, 224);
             this.ResultsLabel.Name = "ResultsLabel";
             this.ResultsLabel.Size = new System.Drawing.Size(71, 20);
             this.ResultsLabel.TabIndex = 2;
